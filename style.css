@@ -1,0 +1,19 @@
+html *{
+  font-family: 'Raleway', sans-serif;
+}
+
+.navbar{
+  border-radius: 0px;
+}
+
+.get-started{
+  background-color: #FFFFFF;
+  height: 300px;
+  width: 100%;
+}
+
+.about{
+  background-color: #F5F5F5;
+  height: 300px;
+  width: 100%;
+}
