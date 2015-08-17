@@ -17,3 +17,91 @@ html *{
   height: 300px;
   width: 100%;
 }
+
+body {
+  font-family: 'Open Sans',sans-serif;
+  font-size: 14px;
+}
+  
+/*body {
+  font-family: 'Open Sans',sans-serif;
+  font-size: 14px;
+}*/
+  
+/* black-bar */
+.black-bar {
+    width: 250px;
+    color: #fff;
+    font-size: 15px;
+    background: #333;    
+}
+.black-bar ul {
+    display: block;
+    margin: 0 0 15px;
+    padding: 0;
+    border-top: 1px solid #1a1a1a;
+    border-bottom: 1px solid #4d4d4d;
+}
+.black-bar ul li {
+    display: block;
+    margin: 0;
+    line-height: 48px;
+    border-top: 1px solid #4d4d4d;
+    border-bottom: 1px solid #1a1a1a;
+}
+.black-bar ul li a {
+    padding: 0 15px;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+}
+.black-bar ul li:hover, .black-bar ul li.active {
+    border-top: none;
+    line-height: 49px;
+}
+.black-bar ul li:hover > a, .black-bar ul li.active > a {
+    -webkit-box-shadow: inset 0 0 15px 3px #222;
+    -moz-box-shadow: inset 0 0 15px 3px #222;
+    box-shadow: inset 0 0 15px 3px #222;    
+}
+
+/* Slidebars submenu */
+.nav-black {
+  width: 15%; 
+  background-color: #878787; 
+  color: #F0F0F0;
+  margin-top: 75px;
+}
+.nav-black .sb-menu {
+  padding: 0; 
+  margin: 0; 
+  list-style: none;
+}
+.nav-black .sb-menu li {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);  
+}
+.nav-black .sb-menu li a {
+  border-left: 3px solid transparent;
+  width: 100%;
+  display: inline-block;
+  padding: 1em;
+  color: #f2f2f2;
+  text-decoration: none;
+}
+.nav-black .sb-menu li a:hover {
+  border-left: 3px solid;
+  color: #E83165;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+/* 서브메뉴에 대한 토글은 스스로 작성 */
+.nav-black .sb-submenu {
+  display: ; /* 서브메뉴 숨김 */
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  background-color: rgba(255, 255, 255, 0.05);
+}
